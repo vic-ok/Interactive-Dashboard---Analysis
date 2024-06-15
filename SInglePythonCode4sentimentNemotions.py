@@ -89,7 +89,7 @@ def get_emotional_label(text):
 data['emotion'] = data['Content'].apply(get_emotional_label)
 
 # Save DataFrame to CSV
-csv_file = "Gumin_BreakFastCooking_emotionNew.csv"
+csv_file = "BreakFastCooking_emotionNew.csv"
 data.to_csv(csv_file, index=False)
 
 
